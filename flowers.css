@@ -4,6 +4,13 @@
 
 }
 
+/* google Font */
+.noto-serif-noto {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 /* share styles */
 .display-flex {
     display: flex;
@@ -50,7 +57,30 @@ nav ul a {
     text-decoration: none;
 }
 
+/* banner style */
 .hasan {
-    margin-top: 90px;
+
     border: solid rebeccapurple;
+}
+
+.banner-container {
+    width: 517px;
+    height: 88px;
+    gap: 13;
+    margin-top: 40px;
+}
+
+.banner-titel {
+    font-size: 4.6rem;
+    font-weight: 700;
+
+}
+
+.banner-paragraph {
+    font-size: 1.37rem;
+    font-weight: 400;
+}
+
+.banner-img {
+    width: 100%;
 }
