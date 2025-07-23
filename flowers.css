@@ -64,10 +64,8 @@ nav ul a {
 }
 
 .banner-container {
-    width: 517px;
-    height: 88px;
     gap: 13;
-    margin-top: 40px;
+
 }
 
 .banner-titel {
@@ -83,4 +81,24 @@ nav ul a {
 
 .banner-img {
     width: 100%;
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+    .hasan {
+
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .banner-titel {
+        /* width: 122px;
+        height: 33px; */
+        font-size: 1.5rem;
+    }
+
+    .banner-paragraph {
+        font-size: 0.87rem;
+    }
+
 }
