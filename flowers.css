@@ -50,7 +50,7 @@ nav img {
 
 nav ul {
     list-style: none;
-    gap: 48px;
+    gap: 8px;
 }
 
 nav ul a {
@@ -81,6 +81,23 @@ nav ul a {
 
 .banner-img {
     width: 100%;
+}
+
+/* Our Plants  */
+.Plants {
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.Plants-title {
+    font-size: 3.12rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Plants-p {
+    text-align: center;
 }
 
 /* mobile */
