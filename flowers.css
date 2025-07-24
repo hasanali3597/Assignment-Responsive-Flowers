@@ -162,6 +162,10 @@ nav ul a {
 }
 
 /* Flower & Plants Lover */
+.main-floewr {
+    margin-top: 100px;
+}
+
 .img-flower {
     width: 100%;
     height: 100%;
@@ -173,6 +177,22 @@ nav ul a {
 }
 
 .floewr-p {
+    font-weight: 400;
+    font-size: 1.37rem;
+}
+
+/* Latest Deals */
+.samim {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.latest-deals {
+    font-weight: 700;
+    font-size: 3.12rem;
+}
+
+.latest-deals-p {
     font-weight: 400;
     font-size: 1.37rem;
 }
@@ -194,6 +214,7 @@ nav ul a {
     }
 
     /* card-container */
+
     .cars-section {
         width: 171px;
         height: 341px;
