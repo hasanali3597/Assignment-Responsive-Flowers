@@ -197,6 +197,68 @@ nav ul a {
     font-size: 1.37rem;
 }
 
+/* 60% Off | Bloom Plant */
+.Bloom-card {
+    margin-top: 50px;
+}
+
+/* .img-text-card {
+    margin-top: 50px;
+} */
+
+.container {
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+
+    width: 390px;
+    height: 201px;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+.Bloom {
+    color: #faf6f5;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Bloom-1 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #faf6f5;
+}
+
+.img-tex-center {
+
+    height: 50px;
+    width: 270px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #FFFFFF;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+
+.container img {
+
+    position: relative;
+    height: 100%;
+}
+
+.container-zabo {
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+
+    width: 773px;
+    height: 432px;
+}
+
+
+
 /* mobile */
 @media screen and (max-width: 576px) {
     .hasan {
@@ -234,5 +296,18 @@ nav ul a {
     .main-floewr {
         flex-direction: column;
         align-items: center;
+    }
+
+    .img-text-card {
+        flex-direction: column;
+    }
+
+    .Bloom-card {
+        flex-direction: column;
+    }
+
+    .zabo-img {
+        width: 361px;
+        height: 172px;
     }
 }
