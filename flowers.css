@@ -257,6 +257,40 @@ nav ul a {
     height: 432px;
 }
 
+/* Join the colorful Bunch */
+.box-sizing {
+    width: 1250px;
+    height: 553px;
+    position: relative;
+}
+
+.content-box {
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.box-sizing img {
+    width: 100%;
+}
+
+.colorful {
+    font-weight: 700;
+    font-size: 3.12rem;
+    color: #FFFFFF;
+}
+
+.colorful-in {
+    width: 500px;
+    height: 20px;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #E95A08;
+}
 
 
 /* mobile */
@@ -310,4 +344,9 @@ nav ul a {
         width: 361px;
         height: 172px;
     }
+}
+
+.box-sizing {
+    width: 393px;
+    height: 276px;
 }
