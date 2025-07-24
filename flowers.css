@@ -100,6 +100,56 @@ nav ul a {
     text-align: center;
 }
 
+/* card styles */
+.cars-section {
+    width: 270px;
+    height: 485px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-titel {
+    width: 132px;
+    height: 16px;
+    font-weight: 500;
+    margin: auto;
+    color: #111111;
+    font-size: 1.37rem;
+
+}
+
+.card-price {
+    width: 132px;
+    height: 16px;
+    font-weight: bold;
+    color: #111111;
+    margin: 0 auto;
+    font-size: 1.37rem;
+}
+
+.card-button {
+    width: 270px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+}
+
+.cars-section:hover {
+    transform: translateY(-5px);
+}
+
+.card-button:hover {
+    transform: translateX(-5px);
+    background-color: rgb(0, 191, 255);
+}
+
 /* mobile */
 @media screen and (max-width: 576px) {
     .hasan {
