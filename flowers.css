@@ -101,11 +101,18 @@ nav ul a {
 }
 
 /* card styles */
+.cad-container {
+    border: solid lightsalmon;
+}
+
 .cars-section {
     width: 270px;
     height: 485px;
     margin: 0 auto;
     align-items: center;
+    padding: 5px;
+    box-shadow: #8987A1;
+    border: solid khaki;
 
 }
 
@@ -159,8 +166,6 @@ nav ul a {
     }
 
     .banner-titel {
-        /* width: 122px;
-        height: 33px; */
         font-size: 1.5rem;
     }
 
@@ -168,4 +173,19 @@ nav ul a {
         font-size: 0.87rem;
     }
 
+    /* card-container */
+    .cars-section {
+        width: 171px;
+        height: 341px;
+    }
+
+    .cad-container {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .card-button {
+        width: 171px;
+        height: 50px;
+    }
 }
