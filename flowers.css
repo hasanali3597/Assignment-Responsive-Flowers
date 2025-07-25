@@ -58,10 +58,6 @@ nav ul a {
 }
 
 /* banner style */
-.hasan {
-
-    border: solid rebeccapurple;
-}
 
 .banner-container {
     gap: 13;
@@ -293,45 +289,20 @@ nav ul a {
 }
 
 /* footer start */
-.figma {
-    padding: 50px;
-    display: flex;
-}
 
-.pic {
-    margin-left: 200px;
-    margin-right: 200px;
 
-    gap: 30px;
-
-    display: grid;
-
-}
-
-.tik {
-
-    gap: 30px;
-    display: grid;
-
-}
-
-.amam {
-
-    display: flex;
-    gap: 30px;
-    /* justify-content: end; */
-
-}
-
-.minit {
-    color: rgb(0, 0, 0, 50%);
-    text-decoration: none;
-    display: flex;
+.footer-main {
     align-items: center;
-    justify-content: space-between;
-    /* padding: 0px -300px; */
 }
 
+.footer-home li {
+    list-style: none;
+}
+
+.footer-home li a {
+    text-decoration: none;
+    color: gray;
+}
 
 /* mobile */
 @media screen and (max-width: 576px) {
@@ -390,6 +361,10 @@ nav ul a {
         height: 172px;
     }
 
+    .container-zabo img {
+        width: 370px;
+    }
+
     .box-sizing {
         width: 393px;
         height: 276px;
@@ -410,5 +385,21 @@ nav ul a {
 
     .colorful-in {
         width: 100px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-items {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .footer-home {
+        padding: 0;
+        margin: 0;
     }
 }
