@@ -196,6 +196,7 @@ nav ul a {
 /* 60% Off | Bloom Plant */
 .Bloom-card {
     margin-top: 50px;
+    color: #E95A08;
 }
 
 /* .img-text-card {
@@ -242,6 +243,14 @@ nav ul a {
 
     position: relative;
     height: 100%;
+}
+
+.Bloom-1 {
+    margin-top: -100px;
+    margin-left: -150px;
+    font-size: 1.5rem;
+
+
 }
 
 .container-zabo {
@@ -385,6 +394,7 @@ nav ul a {
 
     .colorful-in {
         width: 100px;
+
     }
 
     .footer-main {
